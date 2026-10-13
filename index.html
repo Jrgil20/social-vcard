@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jesús Gil | Social Card</title>
+  <meta name="description" content="Social card de Jesús Gil: Instagram, WhatsApp, gaming y temas para conversar." />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Jesús Gil | Social Card" />
+  <meta property="og:description" content="Caracas 📍 | Estudiante de informática, gamer de indies, aficionado al tenis y siempre listo para un plan." />
+  <meta property="og:url" content="https://jrgil20.github.io/social-card/" />
+  <meta property="og:image" content="https://gravatar.com/avatar/2f67f4fc6f3dc6f37e6c4fef4ce6d950?d=identicon&s=512" />
+  <meta property="og:locale" content="es_VE" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jesús Gil | Social Card" />
+  <meta name="twitter:description" content="Escanea NFC ⚡ y conéctate por Instagram, WhatsApp o para jugar." />
+  <meta name="twitter:image" content="https://gravatar.com/avatar/2f67f4fc6f3dc6f37e6c4fef4ce6d950?d=identicon&s=512" />
+
+    <link rel="stylesheet" href="./styles.css" />
+
+</head>
+<body>
+  <main class="app" role="main">
+    <section class="card profile" aria-label="Perfil de Jesús Gil">
+      <img class="avatar" src="https://gravatar.com/avatar/2f67f4fc6f3dc6f37e6c4fef4ce6d950?d=identicon&s=220" alt="Avatar de Jesús Gil" />
+      <h1>Jesús Gil</h1>
+      <p class="bio">Caracas 📍 | Estudiante de informática, gamer de indies, aficionado al tenis y siempre listo para un plan, unas partidas o una buena charla.</p>
+      <span class="status">🟢 Libre para un plan / Open to connect</span>
+    </section>
+
+    <section class="card" aria-label="Acciones rápidas">
+      <div class="actions">
+        <a class="btn primary" href="https://www.instagram.com/jrg20_u/" target="_blank" rel="noopener noreferrer">📸 Instagram</a>
+        <a class="btn" href="https://wa.me/584121844043?text=%C2%A1Hola%20Jes%C3%BAs!%20Te%20vi%20en..." target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+        <button class="btn" id="saveContactBtn" type="button">💾 Guardar contacto</button>
+      </div>
+    </section>
+
+    <section class="card" aria-label="Gaming y partidas">
+      <h2>Gaming &amp; Echar Partidas</h2>
+      <div class="actions" style="margin-top: 10px;">
+        <a class="btn" href="https://steamcommunity.com/id/JesusRodolfo758/" target="_blank" rel="noopener noreferrer">🎮 Steam</a>
+        <button class="btn" id="epicBtn" type="button">🕹️ Epic ID: <span id="epicLabel">jrgil758</span></button>
+      </div>
+      <p class="note">Juego indies, co-op, shooters o lo que pinte. Agrega y cuadramos partidas.</p>
+    </section>
+
+    <section class="card" aria-label="Temas de conversación">
+      <h2>Hablemos de esto si me ves</h2>
+      <div class="chips">
+        <span class="chip">🎾 Tenis y peloteo en cancha</span>
+        <span class="chip">🎮 Indie games (Hollow Knight, Dead Cells, etc.)</span>
+        <span class="chip">💻 Tech, IA y código (cuando me pongo nerd)</span>
+        <span class="chip">🍕 Cocinar pasta y probar sitios nuevos</span>
+        <span class="chip">🍻 Cualquier salida o plan improvisado</span>
+      </div>
+    </section>
+
+    <section class="card links" aria-label="Enlaces secundarios">
+      <a href="mailto:usogeneral758@gmail.com">✉️ usogeneral758@gmail.com</a>
+      <a href="https://github.com/Jrgil20" target="_blank" rel="noopener noreferrer">🐙 GitHub</a>
+      <a href="https://www.linkedin.com/in/jesus-r-gil/" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a>
+    </section>
+
+    <footer>Escaneado vía NFC ⚡ | Escríbeme o agrega para jugar.</footer>
+  </main>
+
+  <script src="./script.js" defer></script>
+
+</body>
+</html>
